@@ -1,3 +1,5 @@
+
+<a target="_blank" href="https://romanncodes.github.io/advice-generator-app/">view my result</a>
 # Frontend Mentor - Advice generator app
 
 ![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
