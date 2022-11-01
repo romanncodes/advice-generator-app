@@ -1,0 +1,75 @@
+:root{
+    --LightCyan: hsl(193, 38%, 86%);
+    --NeonGreen: hsl(150, 100%, 66%);
+
+    --GrayishBlue: hsl(217, 19%, 38%);
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%);
+
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: var(--DarkBlue);
+    font-size: 28px;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: var(--DarkGrayishBlue);
+    padding: 16px;
+    margin: 0 16px;
+    text-align: center;
+    color: var(--LightCyan);
+    border-radius: 25px;
+    
+}
+.card h4{
+    color: var(--NeonGreen);
+    font-size: 20px;
+    letter-spacing: 5px;
+    
+}
+.separator{
+    margin-bottom: 20px;
+}
+
+ a{
+    background-color: var(--NeonGreen);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 50px;
+    
+    position: absolute;
+    bottom: 1;
+    left: 46%;
+    
+    
+
+}
+a:hover{
+    box-shadow: 3px 3px 20px var(--NeonGreen);
+}
+
+
+@media screen and (min-width: 768px) {
+    .card{
+        margin: 0 400px;
+    }
+    
+    a{
+        left: 48%;
+    }
+
+}
